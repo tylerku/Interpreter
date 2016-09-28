@@ -1,0 +1,11 @@
+Schemes:
+   BC(A,B) 
+   DD(A)
+Facts:
+   BC('ned','bea').
+   BC('nick','james').
+   BC('dee','alex').
+Rules:
+   DD(N) :- BC('dee', N).
+ 
+Queries:
